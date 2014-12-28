@@ -15,11 +15,15 @@ it to download all of the dependencies.
 
     git submodule add git@github.com:SamStonehouse/vagrant-puppet-webdev.git box
     cd box
+    vagrant submodule init
+    vagrant submodule update
     vagrant up
 
 ##Usage with git clone
 	
     git clone git@github.com:SamStonehouse/vagrant-puppet-webdev.git
     cd vagrant-puppet-webdev
+    vagrant submodule init
+    vagrant submodule update
     vagrant up
 
