@@ -1,7 +1,7 @@
 include nginx
 
 nginx::resource::vhost { 'localhost':
-  www_root => '/var/src/client/build',
+  www_root => '/var/src/public',
 }
 
 include nodejs
